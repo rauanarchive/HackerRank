@@ -1,0 +1,10 @@
+The case where no information is provided on the rest of astronauts:
+Example:
+4 1
+0 2
+
+This means there are two components with one element {1} and {3}
+along with the known component {0,2}.
+
+The algorithm in journey_to_moon.c does not work in this exampe.
+Some non-trivial modification is required.
